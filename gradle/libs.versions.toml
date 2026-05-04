@@ -1,0 +1,5 @@
+[versions]
+his = "3.3.1"
+
+[libraries]
+his = { module = "io.ktor:ktor-server-core", version.ref = "his" }

